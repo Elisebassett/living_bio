@@ -69,4 +69,100 @@ body {
 }
 
 
+/*About*/
 
+/*.overlay_container {
+	overflow: hidden;
+}*/
+.overlay-button {
+	background: pink;
+	position: relative;
+	bottom: 102%;
+	opacity: 0.3;
+	line-height: 250px;
+}
+.overlay-button h1{
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	color: black;
+
+}
+.button img {
+	width: 100%;
+	box-sizing: border-box;
+	position: relative; 
+}
+
+.button {
+	height: 400px;
+	width: 400px;
+	text-align: center;
+	overflow: hidden;
+	margin: 40px;
+}
+
+.gallery {
+	text-align: center;	
+	margin: 0 auto;
+}
+  
+.gallery div {
+	vertical-align: top;
+	box-sizing: border-box;	
+	display: inline-block;
+	height: 300px;
+	width: 300px;
+	overflow: hidden;
+}
+  
+.gallery img {
+	width: 100%;
+	height: 100%;
+}
+
+
+/*.about_buttons {
+	text-align: center;	
+	overflow: hidden;
+	height: 300px;
+	width: 300px;
+}
+
+.button {
+	height: 300px;
+	width: 300px;
+	display: inline-block;
+	vertical-align: top;
+	overflow: hidden;
+}
+  
+.gallery div {
+	vertical-align: top;
+	box-sizing: border-box;	
+	display: inline-block;
+}
+.button img {
+	width: 100%;
+}
+.overlay {
+	height: 300px;
+	width: 300px;
+	overflow: hidden;
+}
+.overlay div{
+	background: pink;
+	position: relative;
+	bottom: 104%;
+	width: 600px;
+	height: 600px;
+	opacity: 0.3;
+}
+.button h1{
+	text-align: left;
+	color: white;
+	padding: 10px;
+	font-size: 40px;
+	margin: 0px;
+}
+*/
