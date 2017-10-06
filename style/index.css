@@ -90,8 +90,13 @@ h1 {
 	position: relative;
 	bottom: 101%;
 	opacity: 0.3;
-	line-height: 250px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding: 100px 0px;
+
 }
+
 .overlay-button h1{
 	text-align: center;
 	color: white;
