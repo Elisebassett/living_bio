@@ -1,6 +1,51 @@
 body {
 	margin:0;
 }
+/*Nav*/
 .nav {
+	height:30px;
+	width: 100%;
+	line-height: 30px;
+	background-color: #9BC2CF;
+	margin:none;
+	font-size: 20px;
+	vertical-align: middle;
+	padding:10px;
+	position: fixed;
+	z-index: 1;
+}
+.nav a:link {
+	color: white;
+	text-decoration:none;
+	padding:7px;
+}
+.nav a:hover {
+	color: pink;
+}
+.nav a:visited {
+	color: grey;
+}
+.nav a:hover {
+	color: pink;
+}
 
+.nav a:visited {
+	color: grey;
+}
+
+.links {
+	margin-right: 15px;
+	text-align: right;
+}
+
+.logo {
+	height: 50px;
+	width: 43px;
+	overflow: hidden;
+	position: fixed;
+	top:0px;
+}
+
+.logo img{
+	width: 100%;
 }
