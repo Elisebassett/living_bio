@@ -1,5 +1,6 @@
 body {
 	margin:0;
+	font-family: 'Special Elite';
 }
 /*Nav*/
 .nav {
@@ -46,3 +47,26 @@ body {
 .logo img{
 	width: 100%;
 }
+
+/*Home*/
+#home {
+	background-color: rgb(246,246,244);
+}
+.home {
+	height: 600px;
+	width: 600px;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 70px;
+}
+.home img {
+	width: 100%;
+}
+
+.scroll_arrow {
+	margin:0;
+	text-align: center;
+}
+
+
+
