@@ -232,6 +232,8 @@ h1 {
     padding: 20px;
     border: 1px solid #888;
     width: 80%; /* Could be more or less, depending on screen size */
+	text-align: center;
+	border: solid 5px black;
 }
 
 /* The Close Button */
