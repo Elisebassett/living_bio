@@ -1,5 +1,5 @@
 body {
-	margin:0;
+	margin:0px;
 	font-family: 'Special Elite';
 }
 h1 {
@@ -128,6 +128,80 @@ h1 {
 .gallery img {
 	width: 100%;
 	height: 100%;
+}
+
+/*Past Events*/
+.contain {
+	width: 100%;
+	height: 350px;
+	padding: 30px 0px;
+}
+.left {
+	text-align: left;
+	background: -webkit-linear-gradient(left top, rgb(244, 244, 243), rgb(215, 215, 211)); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(bottom right, rgb(244, 244, 243), rgb(215, 215, 211)); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(bottom right, rgb(244, 244, 243), rgb(215, 215, 211)); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to bottom right, rgb(244, 244, 243), rgb(215, 215, 211)); /* Standard syntax */
+}
+.left p{
+	margin-right: 400px;
+}
+.right p{
+	margin-left: 400px;
+}
+.right {
+	text-align: right;
+	background: -webkit-linear-gradient(left top, rgb(215, 215, 211), rgb(244, 244, 243)); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(bottom right, rgb(215, 215, 211), rgb(244, 244, 243)); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(bottom right, rgb(215, 215, 211), rgb(244, 244, 243)); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to bottom right, rgb(215, 215, 211), rgb(244, 244, 243)); /* Standard syntax */
+}
+.left img {
+	display: inline-block;
+	float: left;
+	height: 300px;
+	margin: 30px;
+
+}
+.right img {
+	display: inline-block;
+	float: right;
+	height: 300px;
+	margin: 30px;
+}
+
+/*contact*/
+.contact {
+	text-align: center;
+	margin: 70px;
+}
+.contact-info {
+	width:300px;
+	margin:0 auto;
+	text-align: left;
+}
+.contact-info div{
+	vertical-align: top;
+	box-sizing: border-box;	
+	display: inline-block;
+	margin: 5px;
+}
+
+/*Social Media*/
+.floating-smi {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+}
+.floating-smi div{
+	float: right;
+	clear: both;
+	width: 40px;
+	height: 40px;
+	margin: 3px;
+}
+.floating-smi img{
+	width:100%;
 }
 
 
