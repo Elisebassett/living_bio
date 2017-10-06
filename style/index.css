@@ -6,7 +6,7 @@ body {
 	height:30px;
 	width: 100%;
 	line-height: 30px;
-	background-color: #9BC2CF;
+	background-color: rgb(246, 246,246);
 	margin:none;
 	font-size: 20px;
 	vertical-align: middle;
@@ -29,10 +29,6 @@ body {
 	color: pink;
 }
 
-.nav a:visited {
-	color: grey;
-}
-
 .links {
 	margin-right: 15px;
 	text-align: right;
@@ -44,6 +40,7 @@ body {
 	overflow: hidden;
 	position: fixed;
 	top:0px;
+	margin:2px;
 }
 
 .logo img{
