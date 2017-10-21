@@ -252,3 +252,10 @@ h1 {
 }
 
 
+/* Modal Form */
+.modal-content input, .modal-content button {
+    border: 2px solid rgb(0, 0, 0);
+    font-family: inherit;
+    padding: .5em;
+}
+
